@@ -29,7 +29,7 @@ Una vez tengamos creada nuestra base de datos, tenemos que especificar los pará
 1. El archivo persistence.xml que está en el directorio `src/main/resources/META-INF/`
 2. El archivo ConexionDB.java que está en el directorio `src/main/java/ponyvet/modelo/dao/`
 ## Ejecutar aplicación en Apache Netbeans
-Simplemente exportamos nuestra aplicación desde Apache Netbeans y ejecutamos el archivo con SplashScreen, el cual contiene la clase principal y se encuentra dentro del directorio `src/main/java/ponyvet/gui/principal`
+Simplemente exportamos nuestra aplicación desde Apache Netbeans y ejecutamos el archivo `src/main/java/ponyvet/gui/principal/SplashScreen.java`, el cual contiene la clase principal.
 # Capturas de pantalla
 ![](https://i.imgur.com/DpSiCyT.png)
 ![](https://i.imgur.com/QAtFRdi.png)
