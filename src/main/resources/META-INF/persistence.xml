@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="PersistenceUnit" transaction-type="RESOURCE_LOCAL">
+    <class>ponyvet.modelo.entidades.articulo.Articulo</class>
+    <class>ponyvet.modelo.entidades.articulo.ArticuloIMG</class>
+    <class>ponyvet.modelo.entidades.articulo.Categoria</class>
+    <class>ponyvet.modelo.entidades.articulo.Lote</class>
+    <class>ponyvet.modelo.entidades.articulo.Unidad</class>
+    <class>ponyvet.modelo.entidades.pedido.Pedido</class>
+    <class>ponyvet.modelo.entidades.compra.Compra</class>
+    <class>ponyvet.modelo.entidades.salida.SalidaDetalle</class>
+    <class>ponyvet.modelo.entidades.Veterinario</class>
+    <class>ponyvet.modelo.entidades.User</class>
+    <class>ponyvet.modelo.entidades.Proveedor</class>
+    <class>ponyvet.modelo.entidades.Empresa</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/veterinariapony?serverTimezone=America/Mexico_City"/>
+      <property name="javax.persistence.jdbc.user" value="vetpony"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="D1ng0D4ng0"/>
+    </properties>
+  </persistence-unit>
+</persistence>
