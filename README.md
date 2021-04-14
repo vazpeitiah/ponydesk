@@ -17,7 +17,7 @@ Sistema de control de inventarios para una veterinaria rural
 - Crear una empresa
 - Splash Screen
 # Cómo usar
-Para utilizar la aplicación necesitaremos de MySQL Server o MariaDB Server, y el IDE Apache Netbens (También puedes usar Netbeans). 
+Para utilizar la aplicación necesitaremos de MySQL Server o MariaDB Server, y el IDE Apache Netbeans (También puedes usar Netbeans). 
 ## Instalar base de datos
 Primero debes crear la base de datos en MySQL. Para ello, dentro de la carpeta `Base de datos/`, está el archivo basededatos.sql con el cual vamos a instalar la base de datos. Una vez tengamos nuestro archivo .sql, abrimos una terminal o cmd y ejecutamos el siguiente comando:
 ```shell
